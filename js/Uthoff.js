@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 "use strict";
 
 var stickySidebarone = $('.markerone').offset().top;
@@ -278,3 +280,5 @@ $(window).scroll(function() {
     video1.addEventListener("canplay", start);
 
     function start() {this.play()};
+    
+});
