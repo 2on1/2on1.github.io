@@ -1,0 +1,101 @@
+<style>
+
+@media screen and (max-width: 1280px) {
+.intro {width: 100%!important;}
+.light {width: 100%!important;}
+.title {font-size: 46px!important;}
+.left-container {width: 93.33333%!important;}
+.intro {font-size: 18px!important; width: 93.33333%!important; margin: 8px auto!important;}
+.author {font-size: 18px!important; margin: 8px auto!important;}
+.question {font-size: 24px!important; line-height: 140%; font-family: bebas_neue; font-weight: bold; color: #454545; padding: 12px!important; text-align: center!important; margin-top: 16px;}
+
+}
+
+@media screen and (max-width: 970px) {
+.right {width: 100%!important; background: #e1e1e1!important; margin-bottom: 20px!important; float: initial!important;}
+.affix {position: relative!important; top: 0!important;}
+.uthoffone, .uthofftwo, .uthoffthree, .uthofffour, .uthofffive, .uthoffsix, .uthoffseven, .uthoffeight, .uthoffnine, .uthofften, .uthoffeleven, .uthofftwelve, .uthoffthirteen, .uthofffourteen, .uthofffifteen, .uthoffsixteen, .uthoffseventeen, .uthoffeighteen, .uthoffnineteen, .uthofftwenty, .uthofftwentyone {display:block!important; overflow-y: scroll;}
+.left {width: 100%!important; border-right: none!important; padding-top: 42px!important;}
+.hide {display: none!important;}
+.left-container {width: 80%!important;}
+#uthoffonestart {display: none!important;}
+.grayline {display: none!important;}
+.markerone {position: relative!important; top: -5000px!important;}
+.openfoot {display: inline-block!important;}
+.authorbig {display: block!important;}
+.topleft {width: 0%; display: none;}
+.topright {width: 100%!important;}
+.left-container {width: 660px!important;}
+.padding-bottom {height: 0%!important;}
+.uthofftwentyone {padding-bottom: 0px!important;}
+.markerone, .markertwo, .markerthree, .markerfour, .markerfive, .markersix, .markerseven, .markereight, .markernine, .markerten, .markereleven, .markertwelve, .markerthirteen, .markerfourteen, .markerfifteen, .markersixteen, .markerseventeen, .markereighteen, .markernineteen, .markertwenty, .markertwentyone {top: 0!important;}
+}
+
+@media screen and (max-width: 670px) {
+.left-container {width: 98%!important;}
+.left-container p {text-align: left!important;}
+.bigletter {font-size: 120px!important; margin: 0 12px 18px 0!important; line-height: 80px!important;}
+.left {padding-top: 10px!important;}
+.topright {padding-bottom: 26px!important;}
+
+}
+
+
+
+#container {background: #e1e1e1!important;}
+
+.hide {display: block;}
+
+.right h4 {color: #454545!important; margin: 12px auto!important; padding-top: 12px; width: 90%!important; max-width: 640px; }
+
+.topleft {width: 40%; position: absolute; right: 0; top: 25px; overflow-y: hidden; height: inherit;}
+.topright {width: 60%; position: relative; float: left; padding-bottom: 66px;}
+.topright img {width: 100%;}
+.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
+.title {font-size: 64px; font-family: bebas_neue; font-weight: bold; text-align: center; color: #fbd032; background: #202020; padding: 16px 0;}
+.intro {font-size: 24px; text-align: center; color: #202020; width: 660px; margin: 16px auto!important; line-height: 140%;}
+.author, .authorbig {font-size: 24px; text-align: center; font-family: bebas_neue; font-weight: bold; color: #202020;}
+.authorbig {text-align: center; display: none;}
+.mainbody {width: 100%; padding-left: 0px!important; position: relative;}
+.mainbody p {width: 100%;}
+.light {width: 660px; height: 1px; background: #202020; margin: 10px auto; border: none;}
+.heavy {width: 100%; height: 10px; background: #202020; margin: 10px auto; border: none;}
+.bigletter {font-size: 200px; font-family: proxima_extrabold; margin: 0 18px 30px 0; display: block; float: left; line-height: 120px;}
+.text {width: 100%;}
+.text p {margin: 16px 0;}
+.left {width: 60%; display: block; float: left; background: #fff; padding-top:50px;}
+.left img {width: 100%;}
+.left-container {width: 660px; margin: 0 auto;}
+.left-container p {font-size: 16px; line-height: 140%; text-align: justify;}
+.right {width: 40%; float: right; font-size: 20px; z-index: 0; overflow: hidden; pointer-events: none;}
+.right p {line-height: 140%; color: #454545!important; width: 90%; max-width: 640px; font-size: 16px;}
+.affix {position: fixed; top: 60px; bottom: 0px; right:0;}
+.seepic {display: block!important;}
+
+
+#uthoffonestart {width: 40%; float: right; display: none; z-index: 1; pointer-events: auto; overflow-y: auto; padding-bottom: 100px; text-align: justify;}
+#uthoffonestart p {line-height: 140%; color: #454545!important; width: 90%; max-width: 640px; font-size: 16px; margin: 16px auto!important;}
+#uthoffonestart h4 {color: #454545!important; margin: 12px auto!important; max-width: 640px; width: 90%!important; }
+
+.uthoffone, .uthofftwo, .uthoffthree, .uthofffour, .uthofffive, .uthoffsix, .uthoffseven, .uthoffeight, .uthoffnine, .uthofften, .uthoffeleven, .uthofftwelve, .uthoffthirteen, .uthofffourteen, .uthofffifteen, .uthoffsixteen, .uthoffseventeen, .uthoffeighteen, .uthoffnineteen, .uthofftwenty, .uthofftwentyone {width: 100%; height: 100%; position: relative; display: none; font-size: inherit; background:#e1e1e1; overflow-y: auto; z-index: 1; pointer-events: auto;}
+
+.uthofftwentyone {padding-bottom: 500px;}
+
+.uthoffone p, .uthofftwo p, .uthoffthree p, .uthofffour p, .uthofffive p, .uthoffsix p, .uthoffseven p, .uthoffeight p, .uthoffnine p, .uthofften p, .uthoffeleven p, .uthofftwelve p, .uthoffthirteen p, .uthofffourteen p, .uthofffifteen p, .uthoffsixteen p, .uthoffseventeen p, .uthoffeighteen p, .uthoffnineteen p, .uthofftwenty p, .uthofftwentyone p {font-size: 16px; margin: 16px auto!important;}
+
+
+
+.caption {text-align: center;}
+.question {font-size: 30px!important; line-height: 140%; font-family: bebas_neue; font-weight: bold; color: #454545!important; padding: 12px!important; text-align: center!important; margin-top: 16px;}
+
+.markerone, .markertwo, .markerthree, .markerfour, .markerfive, .markersix, .markerseven, .markereight, .markernine, .markerten, .markereleven, .markertwelve, .markerthirteen, .markerfourteen, .markerfifteen, .markersixteen, .markerseventeen, .markereighteen, .markernineteen, .markertwenty, .markertwentyone {position: relative; top: -60px; width: 100%;}
+.grayline {width: 33%; height: 1px; background: #454545;}
+
+.inline-pic {float: right; margin: 10px;}
+
+.padding-bottom {width: 100%; height: 700px;}
+
+.openfoot {display: none;}
+
+#footer {position: relative!important; z-index: 9!important; border-top: 1px solid #202020;}
+</style>
