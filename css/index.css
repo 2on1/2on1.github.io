@@ -202,7 +202,7 @@ width: 100%;
 }
 
 .box-overlay-top {
-	top: calc(0% + 96px);
+	top: calc(100% - 96px);
 	height:48px; 
 	font-size:16px; 
 }
@@ -210,20 +210,20 @@ width: 100%;
 .box-overlay-bottom {
 	height:32px; 
 	font-size:16px; 
-	top: calc(0% + 16px); 
+	top: calc(100% - 16px); 
 	transition: 0.4s;
 }
 
 
 .box-overlay:hover .box-overlay-top{
 	transition: 0.4s;
-	top: calc(0% + 80px);
+	top: calc(100% - 80px);
 	visibility: visible;
 }
 
 .box-overlay:hover .box-overlay-bottom{
 	transition: 0.4s;
-	top: calc(0% + 32px);
+	top: calc(100% - 32px);
 	visibility: visible;
 }
 
