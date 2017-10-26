@@ -195,14 +195,13 @@ width: 100%;
 }
 
 .box-overlay-top, .box-overlay-bottom {
-	visibility: hidden;
 	position: absolute;  
 	left: 0; 
 	transition: 0.4s;
 }
 
 .box-overlay-top {
-	top: calc(100% - 96px);
+	top: calc(100% - 80px);
 	height:48px; 
 	font-size:16px; 
 }
@@ -217,7 +216,7 @@ width: 100%;
 
 .box-overlay:hover .box-overlay-top{
 	transition: 0.4s;
-	top: calc(100% - 80px);
+	top: calc(100% - 64px);
 	visibility: visible;
 }
 
