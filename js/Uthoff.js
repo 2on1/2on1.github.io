@@ -1,7 +1,3 @@
-$(document).ready(function(){
-        $(body).removeClass('storypage www');
-});
-
 "use strict";
 
 var stickySidebarone = $('.markerone').offset().top;
