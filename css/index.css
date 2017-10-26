@@ -184,12 +184,6 @@ nav a:hover {
 	overflow: hidden;
 }
 
-.box-overlay:hover {
-	opacity: 1;
-	transition: 0.4s;
-	-webkit-transition: 0.2s;
-}
-
 .box-overlay div {
 width: 100%;
 }
@@ -197,11 +191,10 @@ width: 100%;
 .box-overlay-top, .box-overlay-bottom {
 	position: absolute;  
 	left: 0; 
-	transition: 0.4s;
 }
 
 .box-overlay-top {
-	top: calc(100% - 48px);
+	top: calc(100% - 64px);
 	height:48px; 
 	font-size:16px; 
 }
@@ -209,7 +202,7 @@ width: 100%;
 .box-overlay-bottom {
 	height:32px; 
 	font-size:16px; 
-	top: calc(100% - 16px); 
+	top: calc(100% - 32px); 
 	transition: 0.4s;
 }
 
