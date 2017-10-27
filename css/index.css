@@ -3,6 +3,7 @@ body {
 	font-family: sans-serif;
 }
 
+.logo {position: absolute; top: 0; left: 0; width: 80px;}
 .topright {width: calc(33.3333% + 16px); float: right; top: 25px; height: inherit; border-left: 1px solid #0064c8;}
 .topleft {width: calc(66.6667% - 32px); float: left;}
 .topleft img {width: 100%;}
@@ -197,11 +198,10 @@ nav a:hover {
 	font-family: sans-serif;
 	padding: 8px;
 	overflow: hidden;
-	border: 1px solid #0064c8;
 }
 
 .box-overlay:hover {	
-	box-shadow: 0px 0px 15px #0064c8;
+	box-shadow: 0px 0px 15px #000;
 }
 
 .box-overlay div {
