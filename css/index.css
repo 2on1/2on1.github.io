@@ -93,9 +93,9 @@ nav a {
 	-webkit-transition: 0.4s;
 }
 nav a:hover {
-    color: #0064c8;
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
+	border-bottom: 1px solid #0064c8;
 }
 
 .header-image p, .header-image strong {color: #fff; letter-spacing: 1px; text-align: center; font-family: sans-serif; margin: 0;}
