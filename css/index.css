@@ -189,6 +189,7 @@ nav a:hover {
 	font-family: sans-serif;
 	padding: 8px;
 	overflow: hidden;
+	border: 1px solid #0064c8;
 }
 
 .box-overlay div {
@@ -203,7 +204,8 @@ width: 100%;
 .box-overlay-top {
 	top: calc(100% - 64px);
 	height:48px; 
-	font-size:16px; 
+	font-size:16px;
+	color: #0064c8;
 }
 
 .box-overlay-bottom {
