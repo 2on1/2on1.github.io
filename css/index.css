@@ -1,19 +1,24 @@
 body {
     margin: 0px;
-	font-family: sans-serif;
+	font-family: serif;
 }
 
 .logo {position: absolute; top: 0; left: 0; width: 80px;}
-.topright {width: calc(33.3333% + 16px); float: right; top: 25px; height: inherit;}
-.topleft {width: calc(66.6667% - 32px); float: left;}
+.topright {width: calc(50% - 64px); float: right; top: 25px; height: inherit;}
+.topleft {width: calc(50% - 16px); float: left;}
 .topleft img {width: 100%;}
-.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #0046c8; height: calc(100vh - 61px); border-bottom: 1px solid #0064c8;}
+.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; 
+	text-align: left; background: #41abc5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41abc5), color-stop(37%,#41abc5), color-stop(37%,#41abc5), color-stop(100%,#0574bb));
+    background: -webkit-linear-gradient(top, #41abc5 0%,#41abc5 37%,#41abc5 37%,#0574bb 100%);
+    background: -webkit-linear-gradient(top, #41abc5 0%, #41abc5 37%, #41abc5 37%, #0574bb 100%);
+    background: linear-gradient(to bottom, #41abc5 0%,#41abc5 37%,#41abc5 37%,#0574bb 100%); 
+	height: calc(100vh - 61px); border-bottom: 1px solid #0064c8;}
 .topmain:hover {box-shadow: 0px 0px 15px #0064c8;}
-.title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #fff; margin-top: calc(50% - 76px);}
-.title p {margin: 32px;}
-.intro {font-size: 16px; text-align: center; color: #fff; max-width: 660px; width: calc(100% - 32px); padding: 16px; line-height: 140%;}
-.author, .authorbig {font-size: 16px; text-align: center; font-family: sans-serif; color: #fff;}
-.authorbig {text-align: center; display: none;}
+.title {font-size: 64px; font-family: sans-serif; font-weight: bold; color: #000; margin-top: calc(60px); margin-bottom: 16px;}
+.intro {font-size: 32px; color: #fff; max-width: 660px; width: calc(100% - 32px); margin: 16px 0; line-height: 140%;}
+.author, .authorbig {font-size: 16px; font-weight: bold; color: #000; font-size: 24px;}
+.authorbig {display: none;}
 
 a {
     text-decoration: none;
