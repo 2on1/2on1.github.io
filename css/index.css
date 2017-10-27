@@ -2,9 +2,9 @@ body {
     margin: 0px;
 }
 
-.topleft {width: 40%; position: absolute; right: 0; top: 25px; overflow-y: hidden; height: inherit;}
-.topright {width: 60%; position: relative; float: left; padding-bottom: 66px;}
-.topright img {width: 100%;}
+.topright {width: 40%; position: absolute; right: 0; top: 25px; overflow-y: hidden; height: inherit;}
+.topleft {width: 60%; position: relative; float: left; padding-bottom: 66px;}
+.topleft img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #000;}
 .title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #0064c8;}
 .intro {font-size: 16px; text-align: center; color: #fff; max-width: 660px; width: calc(100% - 32px); margin: 16px auto!important; line-height: 140%;}
@@ -329,8 +329,8 @@ width: 100%;
 
 
 @media screen and (max-width: 970px) {
-.topleft {width: 0%; display: none;}
-.topright {width: 100%!important;}
+.topright {width: 0%; display: none;}
+.topleft {width: 100%!important;}
 	
 .profile-image {
 	position: relative;
@@ -369,7 +369,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-	.topright {padding-bottom: 26px!important;}
+	.topleft {padding-bottom: 26px!important;}
 	
 .header-image {
     	background-image: url("https://mwmccreary.github.io/assets/New%20York.jpg");
