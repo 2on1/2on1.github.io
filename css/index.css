@@ -5,9 +5,9 @@ body {
 .topleft {width: 40%; position: absolute; right: 0; top: 25px; overflow-y: hidden; height: inherit;}
 .topright {width: 60%; position: relative; float: left; padding-bottom: 66px;}
 .topright img {width: 100%;}
-.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
-.title {font-size: 64px; font-family: bebas_neue; font-weight: bold; text-align: center; color: #fbd032; background: #202020; padding: 16px 0;}
-.intro {font-size: 24px; text-align: center; color: #202020; width: 660px; margin: 16px auto!important; line-height: 140%;}
+.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #000;}
+.title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #0064c8;}
+.intro {font-size: 16px; text-align: center; color: #fff; max-width: 660px; width: calc(100% - 32px); margin: 16px auto!important; line-height: 140%;}
 .author, .authorbig {font-size: 24px; text-align: center; font-family: bebas_neue; font-weight: bold; color: #202020;}
 .authorbig {text-align: center; display: none;}
 
