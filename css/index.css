@@ -2,11 +2,12 @@ body {
     margin: 0px;
 }
 
-.topright {width: 40%; float: right; top: 25px; height: inherit;}
-.topleft {width: 60%; height: 0; padding-bottom: 100%; position: absolute; left: 0; overflow-y: visible;}
+.topright {width: calc(34% - 16px); float: right; top: 25px; height: inherit;}
+.topleft {width: calc(66% - 16px); height: 0; float: left;}
 .topleft img {width: 100%;}
-.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #000;}
-.title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #0064c8;}
+.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #000; height: calc(100vh - 60px); background-bottom: 1px solid #0064c8;}
+.title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #0064c8; margin-top: calc(50% - 48px;}
+.title p {margin: 32px;}
 .intro {font-size: 16px; text-align: center; color: #fff; max-width: 660px; width: calc(100% - 32px); margin: 16px auto!important; line-height: 140%;}
 .author, .authorbig {font-size: 24px; text-align: center; font-family: bebas_neue; font-weight: bold; color: #202020;}
 .authorbig {text-align: center; display: none;}
