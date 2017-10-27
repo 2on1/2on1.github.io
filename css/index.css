@@ -2,8 +2,8 @@ body {
     margin: 0px;
 }
 
-.topright {width: 40%; float: right; top: 25px; height: inherit; padding-bottom: 66px;}
-.topleft {width: 60%; position: absolute; left: 0; overflow-y: hidden;}
+.topright {width: 40%; float: right; top: 25px; height: inherit;}
+.topleft {width: 60%; height: 0; padding-bottom: 56.25%; position: absolute; left: 0; overflow-y: visible;}
 .topleft img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #000;}
 .title {font-size: 32px; font-family: sans-serif; font-weight: bold; text-align: center; color: #0064c8;}
