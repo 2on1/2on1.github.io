@@ -73,7 +73,6 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     position: absolute;
-    top: 16px;
     right: 32px;
 }
 nav ul li, footer ul li {
@@ -81,12 +80,12 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 nav a {
-    color: #ccc;
+    color: #fff;
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
 }
 nav a:hover {
-    color: #fff;
+    color: #ffff00;
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
 }
