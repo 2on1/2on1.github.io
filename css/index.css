@@ -1,13 +1,14 @@
 body {
     margin: 0px;
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 .logo {position: absolute; top: 0; left: 0; width: 80px;}
-.topright {width: calc(50% + 16px); float: right; top: 25px; height: inherit;}
+.topright {width: calc(50% + 16px); float: right; top: 25px; height: inherit; padding-right: 32px;}
 .topleft {width: calc(50% - 16px); float: left;}
 .topleft img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; 
+	font-family: fantasy;
 	text-align: left; background: #41abc5;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41abc5), color-stop(37%,#41abc5), color-stop(37%,#41abc5), color-stop(100%,#0574bb));
     background: -webkit-linear-gradient(top, #41abc5 0%,#41abc5 37%,#41abc5 37%,#0574bb 100%);
@@ -19,10 +20,12 @@ body {
 	-webkit-transform: translateY(-48%);
     -ms-transform: translateY(-48%);
     transform: translateY(-48%);
+	max-width: 660px;
+	width: 100%;
 }
 .topmain:hover {box-shadow: 0px 0px 15px #0064c8;}
-.title {font-size: 64px; font-weight: bold; color: #000; margin-top: 0px; margin-bottom: 16px;}
-.intro {font-size: 32px; color: #fff; max-width: 660px; width: calc(100% - 32px); margin: 16px 0;}
+.title {font-size: 64px; font-weight: bold; color: #000; margin: 16px 0;}
+.intro {font-size: 32px; color: #fff; width: calc(100% - 32px); margin: 16px 0;}
 .author, .authorbig {font-size: 16px; font-weight: bold; color: #000; font-size: 24px; margin-top: 16px; margin-bottom: 16px;}
 .authorbig {display: none;}
 
