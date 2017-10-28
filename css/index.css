@@ -9,7 +9,7 @@ body {
 .topleft img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; 
 	font-family: fantasy;
-	text-align: left; background: #41abc5;
+	text-align: center; background: #41abc5;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41abc5), color-stop(37%,#41abc5), color-stop(37%,#41abc5), color-stop(100%,#0574bb));
     background: -webkit-linear-gradient(top, #41abc5 0%,#41abc5 37%,#41abc5 37%,#0574bb 100%);
     background: -webkit-linear-gradient(top, #41abc5 0%, #41abc5 37%, #41abc5 37%, #0574bb 100%);
@@ -24,9 +24,9 @@ body {
 	width: 100%;
 }
 .topmain:hover {box-shadow: 0px 0px 15px #0064c8;}
-.title {font-size: 64px; font-weight: bold; color: #000; margin: 16px 0;}
-.intro {font-size: 32px; color: #fff; width: calc(100% - 32px); margin: 16px 0;}
-.author, .authorbig {font-size: 16px; font-weight: bold; color: #000; font-size: 24px; margin-top: 16px; margin-bottom: 16px;}
+.title {font-size: 44px; color: #000; margin: 16px 0;}
+.intro {font-size: 30px; color: #fff; width: calc(100% - 32px); margin: 16px 0;}
+.author, .authorbig {font-size: 30px; color: #000; font-size: 24px; margin-top: 16px; margin-bottom: 16px;}
 .authorbig {display: none;}
 
 a {
