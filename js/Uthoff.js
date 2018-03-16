@@ -54,7 +54,7 @@ window.onresize = function(){
     stickySidebartwenty = $('.markertwenty').offset().top;
 
     stickySidebartwentyone = $('.markertwentyone').offset().top;
-];
+};
 
 $(window).scroll(function() {
     if ($(window).scrollTop() <= stickySidebarone) {
