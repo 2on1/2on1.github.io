@@ -57,32 +57,26 @@ $(window).scroll(function() {
         $('.right').addClass('affix');
         $('#uthoffonestart').addClass('seepic');
     }
-
     else {
         $('.right').addClass('affix');
         $('#uthoffonestart').removeClass('seepic');
-
     }
-
 });
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > stickySidebarone && $(window).scrollTop() <= stickySidebartwo) {
         $('.uthoffone').addClass('seepic');
     }
-
     else {
         $('.uthoffone').removeClass('seepic');
     }
-
 });
   
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebartwo && $(window).scrollTop() <= stickySidebarthree) {
         $('.uthofftwo').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofftwo').removeClass('seepic');
     }
 });
@@ -90,9 +84,8 @@ $(window).scroll(function() {
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarthree && $(window).scrollTop() <= stickySidebarfour) {
         $('.uthoffthree').addClass('seepic');
-    }
-    
-    else {
+   } 
+   else {
         $('.uthoffthree').removeClass('seepic');
     }
 });
@@ -100,9 +93,8 @@ $(window).scroll(function() {
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarfour && $(window).scrollTop() <= stickySidebarfive) {
         $('.uthofffour').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofffour').removeClass('seepic');
     }
 });
@@ -110,9 +102,8 @@ $(window).scroll(function() {
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarfive && $(window).scrollTop() <= stickySidebarseven) {
         $('.uthofffive').addClass('seepic');
-    }
-    
-    else {
+    } 
+   else {
         $('.uthofffive').removeClass('seepic');
     }
 });
@@ -120,149 +111,134 @@ $(window).scroll(function() {
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarseven && $(window).scrollTop() <= stickySidebareight) {
         $('.uthoffseven').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffseven').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebareight && $(window).scrollTop() <= stickySidebarnine) {
         $('.uthoffeight').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffeight').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarnine && $(window).scrollTop() <= stickySidebarten) {
         $('.uthoffnine').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffnine').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarten && $(window).scrollTop() <= stickySidebareleven) {
         $('.uthofften').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofften').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebareleven && $(window).scrollTop() <= stickySidebartwelve) {
         $('.uthoffeleven').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffeleven').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebartwelve && $(window).scrollTop() <= stickySidebarthirteen) {
         $('.uthofftwelve').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofftwelve').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarthirteen && $(window).scrollTop() <= stickySidebarfourteen) {
         $('.uthoffthirteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffthirteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop() > stickySidebarfourteen && $(window).scrollTop() <= stickySidebarfifteen) {
         $('.uthofffourteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofffourteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebarfifteen && $(window).scrollTop() <= stickySidebarsixteen) {
         $('.uthofffifteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofffifteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebarsixteen && $(window).scrollTop() <= stickySidebarseventeen) {
         $('.uthoffsixteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffsixteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebarseventeen && $(window).scrollTop() <= stickySidebareighteen) {
         $('.uthoffseventeen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffseventeen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebareighteen && $(window).scrollTop() <= stickySidebarnineteen) {
         $('.uthoffeighteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffeighteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebarnineteen && $(window).scrollTop() <= stickySidebartwenty) {
         $('.uthoffnineteen').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthoffnineteen').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebartwenty && $(window).scrollTop() <= stickySidebartwentyone) {
         $('.uthofftwenty').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofftwenty').removeClass('seepic');
-    }
+   }
 });
 
 $(window).scroll(function() {
    if ($(window).scrollTop()> stickySidebartwentyone) {
         $('.uthofftwentyone').addClass('seepic');
-    }
-    
-    else {
+   }
+   else {
         $('.uthofftwentyone').removeClass('seepic');
-    }
+   }
 });
