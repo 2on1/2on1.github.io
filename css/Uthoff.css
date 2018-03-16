@@ -90,7 +90,7 @@ body {
 .caption {text-align: center;}
 .question {font-size: 30px!important; line-height: 140%; font-family: bebas_neue; font-weight: bold; color: #454545!important; padding: 12px!important; text-align: center!important; margin-top: 16px;}
 
-.markerone, .markertwo, .markerthree, .markerfour, .markerfive, .markersix, .markerseven, .markereight, .markernine, .markerten, .markereleven, .markertwelve, .markerthirteen, .markerfourteen, .markerfifteen, .markersixteen, .markerseventeen, .markereighteen, .markernineteen, .markertwenty, .markertwentyone {position: relative; top: -60px; width: 100%;}
+.markerone, .markertwo, .markerthree, .markerfour, .markerfive, .markersix, .markerseven, .markereight, .markernine, .markerten, .markereleven, .markertwelve, .markerthirteen, .markerfourteen, .markerfifteen, .markersixteen, .markerseventeen, .markereighteen, .markernineteen, .markertwenty, .markertwentyone {position: relative; width: 100%;}
 .grayline {width: 33%; height: 1px; background: #454545;}
 
 .inline-pic {float: right; margin: 10px;}
