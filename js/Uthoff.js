@@ -281,4 +281,3 @@ $(window).scroll(function() {
 
     function start() {this.play()};
     
-});
