@@ -67,7 +67,7 @@
 .left-container p {font-size: 16px; line-height: 140%; text-align: justify;}
 .right {width: 40%; float: right; font-size: 20px; z-index: 0; overflow: hidden; pointer-events: none;}
 .right p {line-height: 140%; color: #454545!important; width: 90%; max-width: 640px; font-size: 16px;}
-.affix {position: fixed; top: 60px; bottom: 0px; right:0;}
+.affix {position: fixed; top: 0; bottom: 0px; right:0;}
 .seepic {display: block!important;}
 
 
