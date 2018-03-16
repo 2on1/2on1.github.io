@@ -1,33 +1,32 @@
-$(document).ready(
-function () {
-"use strict";
+$(document).ready(function () {
+    "use strict";
 
-var stickySidebarone = $('.markerone').offset().top;
-var stickySidebartwo = $('.markertwo').offset().top;
-var stickySidebarthree = $('.markerthree').offset().top;
-var stickySidebarfour = $('.markerfour').offset().top;
-var stickySidebarfive = $('.markerfive').offset().top;
-var stickySidebarsix = $('.markersix').offset().top;
+    var stickySidebarone = $('.markerone').offset().top;
+    var stickySidebartwo = $('.markertwo').offset().top;
+    var stickySidebarthree = $('.markerthree').offset().top;
+    var stickySidebarfour = $('.markerfour').offset().top;
+    var stickySidebarfive = $('.markerfive').offset().top;
+    var stickySidebarsix = $('.markersix').offset().top;
 
-var stickySidebarseven = $('.markerseven').offset().top;
-var stickySidebareight = $('.markereight').offset().top;
-var stickySidebarnine = $('.markernine').offset().top;
-var stickySidebarten = $('.markerten').offset().top;
-var stickySidebareleven = $('.markereleven').offset().top;
-var stickySidebartwelve = $('.markertwelve').offset().top;
+    var stickySidebarseven = $('.markerseven').offset().top;
+    var stickySidebareight = $('.markereight').offset().top;
+    var stickySidebarnine = $('.markernine').offset().top;
+    var stickySidebarten = $('.markerten').offset().top;
+    var stickySidebareleven = $('.markereleven').offset().top;
+    var stickySidebartwelve = $('.markertwelve').offset().top;
 
-var stickySidebarthirteen = $('.markerthirteen').offset().top;
-var stickySidebarfourteen = $('.markerfourteen').offset().top;
-var stickySidebarfifteen = $('.markerfifteen').offset().top;
-var stickySidebarsixteen = $('.markersixteen').offset().top;
+    var stickySidebarthirteen = $('.markerthirteen').offset().top;
+    var stickySidebarfourteen = $('.markerfourteen').offset().top;
+    var stickySidebarfifteen = $('.markerfifteen').offset().top;
+    var stickySidebarsixteen = $('.markersixteen').offset().top;
 
-var stickySidebarseventeen = $('.markerseventeen').offset().top;
-var stickySidebareighteen = $('.markereighteen').offset().top;
-var stickySidebarnineteen = $('.markernineteen').offset().top;
-var stickySidebartwenty = $('.markertwenty').offset().top;
+    var stickySidebarseventeen = $('.markerseventeen').offset().top;
+    var stickySidebareighteen = $('.markereighteen').offset().top;
+    var stickySidebarnineteen = $('.markernineteen').offset().top;
+    var stickySidebartwenty = $('.markertwenty').offset().top;
 
-var stickySidebartwentyone = $('.markertwentyone').offset().top;
-];
+    var stickySidebartwentyone = $('.markertwentyone').offset().top;
+});
 
 window.onresize = function(){
     stickySidebarone = $('.markerone').offset().top;
@@ -55,8 +54,6 @@ window.onresize = function(){
     stickySidebartwenty = $('.markertwenty').offset().top;
 
     stickySidebartwentyone = $('.markertwentyone').offset().top;
-};
-
 
 $(window).scroll(function() {
     if ($(window).scrollTop() <= stickySidebarone) {
@@ -273,5 +270,4 @@ $(window).scroll(function() {
         $('.uthofftwentyone').removeClass('seepic');
     }
 });
-    
-);
+
