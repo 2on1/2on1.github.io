@@ -46,7 +46,7 @@
 
 .right h4 {color: #454545!important; margin: 12px auto!important; padding-top: 12px; width: 90%!important; max-width: 640px; }
 
-.topleft {width: 40%; position: absolute; right: 0; top: 25px; overflow-y: hidden; height: inherit;}
+.topleft {width: 40%; position: absolute; right: 0; bottom: 0; overflow-y: hidden; height: inherit;}
 .topright {width: 60%; position: relative; float: left; padding-bottom: 66px;}
 .topright img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
