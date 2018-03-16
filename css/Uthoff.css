@@ -10,7 +10,7 @@ body {
 .intro {font-size: 18px!important; width: 93.33333%!important; margin: 8px auto!important;}
 .author {font-size: 18px!important; margin: 8px auto!important;}
 .question {font-size: 24px!important; line-height: 140%; font-family: bebas_neue; font-weight: bold; color: #454545; padding: 12px!important; text-align: center!important; margin-top: 16px;}
-
+.topmain {height: auto!important;}
 }
 
 @media screen and (max-width: 970px) {
@@ -53,7 +53,7 @@ body {
 .topleft {width: 40%; position: absolute; right: 0; top: 0; overflow-y: hidden; height: inherit;}
 .topright {width: calc(60% - 132px); position: relative; float: left; padding: 50px;}
 .topright img {width: 100%;}
-.topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
+.topmain {width: 100%; height: 100vh; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
 .title {font-size: 32px; font-family: bebas_neue; font-weight: bold; text-align: center; color: #fbd032; background: #202020; padding: 16px 0;}
 .intro {font-size: 24px; text-align: center; color: #202020; width: 660px; margin: 16px auto!important; line-height: 140%;}
 .author, .authorbig {font-size: 24px; text-align: center; font-family: bebas_neue; font-weight: bold; color: #202020;}
