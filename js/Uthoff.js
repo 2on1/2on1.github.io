@@ -27,7 +27,7 @@ var stickySidebarnineteen = $('.markernineteen').offset().top;
 var stickySidebartwenty = $('.markertwenty').offset().top;
 
 var stickySidebartwentyone = $('.markertwentyone').offset().top;
-};
+});
 
 
 window.onresize = function(){
