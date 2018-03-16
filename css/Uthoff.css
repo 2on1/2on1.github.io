@@ -26,7 +26,7 @@ body {
 .openfoot {display: inline-block!important;}
 .authorbig {display: block!important;}
 .topleft {width: 0%; display: none;}
-.topright {width: 100%!important;}
+.topright {width: 100%!important; padding: 0!important; padding-bottom: 66px!important;}
 .left-container {width: 660px!important;}
 .padding-bottom {height: 0%!important;}
 .uthofftwentyone {padding-bottom: 0px!important;}
