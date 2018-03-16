@@ -26,7 +26,7 @@ body {
 .openfoot {display: inline-block!important;}
 .authorbig {display: block!important;}
 .topleft {width: 0%; display: none;}
-.topright {width: 100%!important; padding: 0!important; padding-bottom: 66px!important;}
+.topright {width: 100%!important; padding: 0!important; padding-bottom: 50px!important;}
 .left-container {width: 660px!important;}
 .padding-bottom {height: 0%!important;}
 .uthofftwentyone {padding-bottom: 0px!important;}
@@ -51,7 +51,7 @@ body {
 .right h4 {color: #454545!important; margin: 12px auto!important; padding-top: 12px; width: 90%!important; max-width: 640px; }
 
 .topleft {width: 40%; position: absolute; right: 0; top: 0; overflow-y: hidden; height: inherit;}
-.topright {width: calc(60% - 132px); position: relative; float: left; padding: 66px;}
+.topright {width: calc(60% - 132px); position: relative; float: left; padding: 50px;}
 .topright img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
 .title {font-size: 32px; font-family: bebas_neue; font-weight: bold; text-align: center; color: #fbd032; background: #202020; padding: 16px 0;}
