@@ -1,5 +1,5 @@
-$(document).ready(function () {
-
+$(document).ready(
+function () {
 "use strict";
 
 var stickySidebarone = $('.markerone').offset().top;
@@ -27,8 +27,7 @@ var stickySidebarnineteen = $('.markernineteen').offset().top;
 var stickySidebartwenty = $('.markertwenty').offset().top;
 
 var stickySidebartwentyone = $('.markertwentyone').offset().top;
-});
-
+];
 
 window.onresize = function(){
     stickySidebarone = $('.markerone').offset().top;
@@ -274,10 +273,5 @@ $(window).scroll(function() {
         $('.uthofftwentyone').removeClass('seepic');
     }
 });
-
-    var video1 = document.getElementsByClassName('video');
-
-    video1.addEventListener("canplay", start);
-
-    function start() {this.play()};
     
+);
