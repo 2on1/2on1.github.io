@@ -51,7 +51,7 @@ body {
 .right h4 {color: #454545!important; margin: 12px auto!important; padding-top: 12px; width: 90%!important; max-width: 640px; }
 
 .topleft {width: 40%; position: absolute; right: 0; top: 0; overflow-y: hidden; height: inherit;}
-.topright {width: 60%; position: relative; float: left; padding-bottom: 66px;}
+.topright {width: calc(60% - 132px); position: relative; float: left; padding: 66px;}
 .topright img {width: 100%;}
 .topmain {width: 100%; overflow: hidden; position: relative; display: block; color: #fff; background: #FBD032;}
 .title {font-size: 32px; font-family: bebas_neue; font-weight: bold; text-align: center; color: #fbd032; background: #202020; padding: 16px 0;}
