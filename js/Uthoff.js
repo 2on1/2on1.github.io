@@ -20,7 +20,29 @@ $(document).ready(function () {
     stickySidebarnineteen = $('.markernineteen').offset().top;
     stickySidebartwenty = $('.markertwenty').offset().top;
     stickySidebartwentyone = $('.markertwentyone').offset().top;
-
+    window.onload = function(){
+        stickySidebarone = $('.markerone').offset().top;
+        stickySidebartwo = $('.markertwo').offset().top;
+        stickySidebarthree = $('.markerthree').offset().top;
+        stickySidebarfour = $('.markerfour').offset().top;
+        stickySidebarfive = $('.markerfive').offset().top;
+        stickySidebarsix = $('.markersix').offset().top;
+        stickySidebarseven = $('.markerseven').offset().top;
+        stickySidebareight = $('.markereight').offset().top;
+        stickySidebarnine = $('.markernine').offset().top;
+        stickySidebarten = $('.markerten').offset().top;
+        stickySidebareleven = $('.markereleven').offset().top;
+        stickySidebartwelve = $('.markertwelve').offset().top;
+        stickySidebarthirteen = $('.markerthirteen').offset().top;
+        stickySidebarfourteen = $('.markerfourteen').offset().top;
+        stickySidebarfifteen = $('.markerfifteen').offset().top;
+        stickySidebarsixteen = $('.markersixteen').offset().top;
+        stickySidebarseventeen = $('.markerseventeen').offset().top;
+        stickySidebareighteen = $('.markereighteen').offset().top;
+        stickySidebarnineteen = $('.markernineteen').offset().top;
+        stickySidebartwenty = $('.markertwenty').offset().top;
+        stickySidebartwentyone = $('.markertwentyone').offset().top;
+    };
     window.onresize = function(){
         stickySidebarone = $('.markerone').offset().top;
         stickySidebartwo = $('.markertwo').offset().top;
