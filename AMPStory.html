@@ -51,30 +51,31 @@
                    layout="responsive">
           </amp-img>
         </amp-story-grid-layer>
+        <div animate-in="fade-in"
+             animate-in-duration="2s">
         <amp-story-grid-layer template="vertical">
           <h1>Tale of 2 Towns</h1>
           <p>What is going on with Karl-Anthony Towns in the playoffs?</p>
         </amp-story-grid-layer>
-      </amp-story-page>
-
-      <!-- Here we have a page consisting of a video which autoplays and loops. -->
-      <amp-story-page id="page-2">
-        <amp-story-grid-layer template="vertical" id="padding">
-<amp-youtube width="1280"
-  height="720"
-  layout="responsive"
-  data-param-controls="1"
-  data-param-end="21"
-  data-param-loop="1"
-  data-param-playlist="_dj01oKfiCc"
-  autoplay
-  data-videoid="_dj01oKfiCc">
-          </amp-youtube>
-        </amp-story-grid-layer>
+        </div>
       </amp-story-page>
 
       <!-- Pre-defined entry animations make it possible to create dynamic pages without videos. The length and initial delay can be customized using the `animate-in-duration` and `animate-in-delay` properties. The [animations sample](../../features/animations/) shows all available animantions in action. -->
-      <amp-story-page id="animation-demo">
+                 <amp-story-page id="page-2">
+                <amp-story-grid-layer template="fill">
+          <amp-img src="https://github.com/2on1/2on1.github.io/blob/master/assets/KAT.gif?raw=true"
+                   width="720" height="1280" 
+                   layout="responsive">
+          </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds">
+          <div class="content" grid-area="lower-third">
+            <p>Karl-Anthony Towns is one of the most talented scorers in the NBA. Through three seasons, he's averaging 21.6 points per game on 54.3% from the field, 38.7% from three, and 83.6% from the free-throw line.</p>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page> 
+      
+      <amp-story-page id="page-3">
                 <amp-story-grid-layer template="fill">
           <amp-img src="https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2017/10/GettyImages-851642564.jpg"
                    width="720" height="1280" 
@@ -84,13 +85,14 @@
         <amp-story-grid-layer template="thirds">
           <div class="content" grid-area="lower-third"
               animate-in-delay="0.4s">
-            <p>9 Shots!</p>
+            <p>Yet, in his first playoff game, Towns struggled. He took just 9 shots against the Houston Rockets, and spent much of the game standing in the corner, watching guards like Derrick Rose and Jeff Teague drive against Houston center Clint Capela.</p>
           </div>
         </amp-story-grid-layer>
       </amp-story-page>
-           <amp-story-page id="page-4">
+      
+            <amp-story-page id="page-4">
                 <amp-story-grid-layer template="fill">
-          <amp-img src="https://github.com/2on1/2on1.github.io/blob/master/assets/KAT.gif?raw=true"
+          <amp-img src="https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2017/10/GettyImages-851642564.jpg"
                    width="720" height="1280" 
                    layout="responsive">
           </amp-img>
@@ -98,10 +100,11 @@
         <amp-story-grid-layer template="thirds">
           <div class="content" grid-area="lower-third"
               animate-in-delay="0.4s">
-            <p>Karl-Anthony Towns is one of the most talented scorers in the NBA. Through three seasons, he's averaging 21.6 points per game on 54.3% from the field, 38.7% from three, and 83.6% from the free-throw line.</p>
+            <p>How can the Timberwolves get Towns back on track for Game 2?</p>
           </div>
         </amp-story-grid-layer>
-      </amp-story-page> 
+      </amp-story-page>
+
     </amp-story>
   </body>
 </html>
