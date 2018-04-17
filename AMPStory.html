@@ -8,6 +8,7 @@
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
     <!-- AMP Stories can make use of other AMP extensions such as `amp-video`. However, AMP Stories supportonly a subset of the available AMP extensions. You can find a full list of the supported extensions [here](https://www.ampproject.org/docs/reference/components/amp-story.html#children-of-amp-story-grid-layer). -->
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <title>Stories in AMP - Hello World</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="canonical" href="/stories/introduction/amp_story_hello_world/">
@@ -49,13 +50,14 @@
       <!-- Here we have a page consisting of a video which autoplays and loops. -->
       <amp-story-page id="page-2">
         <amp-story-grid-layer template="fill">
-          <amp-video autoplay loop
-                width="720" 
-                height="960"
-                poster="<%host%>/img/story_video_dog_cover.jpg"
-                layout="responsive">
-                <source src="<%host%>/video/story_video_dog.mp4" type="video/mp4">
-          </amp-video>
+          <amp-iframe width="500" title="Netflix House of Cards branding: The Stack"
+                          height="281"
+                          layout="responsive"
+                          sandbox="allow-scripts allow-same-origin allow-popups"
+                          allowfullscreen
+                          frameborder="0"
+                          src="https://player.vimeo.com/video/140261016">
+         </amp-iframe>
         </amp-story-grid-layer>
       </amp-story-page>
 
