@@ -42,14 +42,18 @@
       <!-- A story consists of one or more pages. Each page is declared by an `amp-story-page` element. Pages are designed by layering videos, images and text. Here we have a page that uses two layers. One layer filling the available space with an image and one text layer that shows a heading. -->
       <amp-story-page id="page-1">
         <amp-story-grid-layer template="fill">
+        <div animate-in"fade-in">
+        <div animate-in="fly-in-left">
           <amp-img src="http://stats.nba.com/media/players/700/1626157.png"
                    width="720" height="1280" 
                    layout="responsive">
           </amp-img>
         </amp-story-grid-layer>
+        <div animate-in-delay="1s">
         <amp-story-grid-layer template="vertical">
           <h1>A Tale of Two Towns</h1>
           <p>What is going on with Karl-Anthony Towns in the playoffs?</p>
+          </div></div></div>
         </amp-story-grid-layer>
       </amp-story-page>
 
