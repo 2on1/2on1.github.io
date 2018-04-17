@@ -16,21 +16,13 @@
             text-align: justify;
             height: calc(100vh - 64px);
         }
-        .full {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-        }
     </style>
 </head>
 <body>
-    <div class="full">
     <amp-carousel type="slides"
   width="720"
   height="1280"
-  layout="fill"
+  layout="reflexive"
   controls
   loop
   data-next-button-aria-label="Go to next slide"
@@ -48,6 +40,5 @@
     width="450"
     height="300"></amp-img>
     </amp-carousel>
-    </div>
 </body>
 </html>
