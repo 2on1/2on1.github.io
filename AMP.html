@@ -21,6 +21,8 @@
         #carousel-1 {
             -webkit-overflow-scrolling: touch;
             overflow-y: auto;
+            width: 100%;
+            height: 100%;
         }
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -40,12 +42,14 @@
                  height="1280"
                  src="https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true">
     </amp-img>
-  <div id="carousel-1">
+  <div layout="responsive" width="720" height="1280">
+      <div id="carousel-1">
       <amp-iframe width="720" title="Page 1: Why Jrue is a problem."
                           height="1280"
                           layout="responsive"
                           allowfullscreen
                           frameborder="0"
+                          scrolling="yes"
               srcdoc="<p>Jrue.</p>
                       <p>THE PORTLAND TRAIL BLAZERS through two games. THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.</p>
                                   <p>THE PORTLAND TRAIL BLAZERS through two games. THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.THE PORTLAND TRAIL BLAZERS through two games.</p>
@@ -58,6 +62,7 @@
                       <br>">
     <amp-img layout="nodisplay" src="https://i.vimeocdn.com/video/536538454_640.webp" placeholder></amp-img>
   </amp-iframe>
+      </div>
       </div>
         <amp-youtube height="360"
                            layout="fixed-height"
