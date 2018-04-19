@@ -30,6 +30,9 @@
         #page-1 {
             overflow-y: auto!important;
         }
+        .top-align {
+            vertical-align: top;
+        }
     </style>
 </head>
 <body>
@@ -38,19 +41,17 @@
     <amp-carousel type="slides"
   layout="fill"
   controls
+  data-next-button-aria-label="Go to next slide"
+  data-previous-button-aria-label="Go to previous slide"
   loop>
         <amp-img src="https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true"
     width="720"
     height="1280"
     layout="fill"></amp-img>
-       <amp-img src="https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true"
+       <amp-img class="top-align" src="https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true"
     width="720"
     height="1280"
     layout="responsive"></amp-img>
-    <amp-img src="https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true"
-    width="720"
-    height="1280"
-    layout="vertical"></amp-img>
         <div class="padding" id="page-1">This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.This is a story about business casual.</div>
         <amp-img src="https://www.wikihow.com/images/1/13/Dress-for-a-Rehearsal-Dinner-Step-13.jpg"
     width="450"
@@ -62,7 +63,6 @@
     height="300"></amp-img>
     </amp-carousel>
         </div>
-    </div>
 </body>
     
 </html>
