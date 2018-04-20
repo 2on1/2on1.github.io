@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <style>
 .container {
-  width: 100%;
-  max-width: 970px;
+  width: 970px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .content {
-  width: calc(100% - 64px);
+  width: 660px;
   height: calc(100% - 64px);
   padding: 32px;
-  max-width: 660px;
+  max-width: calc(100% - 64px);
   font-size: 18px;
   line-height: 1.5;
   font-family: sans-serif;
