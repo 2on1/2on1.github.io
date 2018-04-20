@@ -5,15 +5,11 @@
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
     <title>Hello, AMPs</title>
     <link rel="canonical" href="https://2on1.github.io/AMP">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <style amp-custom>
-        .padding {
-            font-size: 32px;
-            margin: 16px;
-        }
         .fixed {
             top: 0;
             left: 0;
@@ -22,45 +18,134 @@
             position: fixed;
             overflow: hidden;
         }
-        .relative {
+        .youtube-video-container {
             width: 100%;
-            height: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            overflow: hidden;
+            position: relative;
         }
-        #page-0 {
-            background-image: url("https://github.com/2on1/2on1.github.io/blob/master/assets/jrue3.jpg?raw=true");
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-attachment: fixed;
-            width: 100%;
-        }
-        #page-1 {
+        .youtube-video-caption {
+            position: relative;
+            width: calc(100% - 64px);
+            height: calc(100% - 324px);
+            webkit-overflow-scrolling: touch;
             overflow-y: auto;
+            font-size: 18px;
+            line-height: 1.5;
+            font-family: sans-serif;
+            padding: 32px;
+            background: white;
         }
-        .top-align {
-            vertical-align: top;
+        .youtube-video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+        }
+        .container {
+            margin: 0 0 44px 0;
+            height: calc(100% - 44px);
+            width: 100%;
+            position: relative;
+        }
+        .content {
+            -webkit-overflow-scrolling: touch;
+            overflow-y: auto;
+            font-size: 18px;
+            line-height: 1.5;
+            font-family: sans-serif;
+             padding: 32px;
+            height: calc(100% - 64px);
+            width: calc(100% - 64px);
+            padding: 32px;
+        }
+        .right {
+            text-align: right;
+            font-weight: 700;
         }
     </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
 <body>
-    <div class="fixed">
-    <amp-carousel id="page-1" class="top-align" type="slides"
-       loop
-       layout="fixed-height"
-       height="200">
-        <div id="page-0" class="top-align"></div>
-  <amp-iframe class="top-align"
-                          title="Page 1: Why Jrue is a problem."
-                          height="150"
-                          layout="fixed-height"
-                          allowfullscreen
-                          frameborder="0"
-                          scrolling="yes"
-                          srcdoc="<p>Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. Jrue Holiday has been a nightmare for the Portland Trail Blazers through two games. </p>">
-    <amp-img layout="nodisplay" src="https://i.vimeocdn.com/video/536538454_640.webp" placeholder></amp-img>
-  </amp-iframe>
+  <div class="fixed">  
+  <amp-carousel
+       type="slides"
+       layout="responsive"
+       height="1280"
+       width="720"
+       controls
+       >
+        <amp-img width="720"
+                 height="1280"
+                 src="https://github.com/2on1/2on1.github.io/blob/master/assets/Jrue5.jpg?raw=true">
+    </amp-img>
+      <div class="container">
+          <div class="content">
+          <h2>Why Jrue Holiday is killing Portland</h2>
+<p>The Portland Trail Blazers earned the No. 3 seed in a competitive Western Conference largely through the strength of their backcourt. Damian Lillard and C.J. McCollum combined to average 48.3 points per game this season, the second-best number for a guard combo in the NBA (only James Harden and Chris Paul averaged more).</p> 
+<p>Lillard in particular has been special. He averaged 26.9 points and 6.6 assists, and he’s a good bet to earn 1st Team All-NBA honors for his efforts. </p>
+<p>So far, and it’s early, he’s been absolutely manhandled by New Orleans’ Jrue Holiday. Here are three plays that show why Holiday has been the best guard in the series.</p>
+              <p class="right">Swipe right.</p>
+              <br>
+              <br>
+              <br>
+          </div>
+      </div>
+      
+            <amp-img width="720"
+                 height="1280"
+                 src="https://github.com/2on1/2on1.github.io/blob/master/assets/Jrue-Slide-1-3.gif?raw=true">
+    </amp-img>  
+      
+            <div class="container">
+          <div class="content">
+                            <h2>Why play No. 1 matters</h2>
+      <p>To start the postseason, Holiday has averaged 27 points per game on 54.5 percent shooting -- better on both counts than either of Portland’s guards have mustered. This play shows a big reason why.</p>
+              <p>According to NBADraft.net, Holiday measured 6’4.25” in shoes with a 6’7” wingspan and an 8’4.5” standing reach in the 2009 NBA Draft Combine. At first blush, Lillard doesn’t seem much smaller -- according to the same site, Lillard measured 6’2.75” in shoes and had a 6’7.75” wingspan. But, Lillard’s standing reach was 8’ flat, meaning that Holiday is four or five inches taller than Lillard just by sticking his hand out.</p>
+<p>Holiday is also listed as about 10 pounds heavier (205 to 195) than Lillard, but watch these highlights, and it will feel like more Just watch that play: Lillard goes over the screen, then gets stuck behind Holiday, who uses his butt to box Lillard out and effectively make him a useless player. Then, just to cap things off, Holiday is big and bouncy enough to finish in the paint over interior defenders.</p> 
+             <p class="right">Swipe right.</p>
+             <br>
+             <br>
+             <br>
+         </div>
+      </div>
+     
+                  <amp-img width="720"
+                 height="1280"
+                 src="https://github.com/2on1/2on1.github.io/blob/master/assets/Jrue-Slide-2-2.gif?raw=true">
+    </amp-img>  
+      
+       <div class="container">
+          <div class="content"> 
+                            <h2>Why play No. 2 matters</h2>
+      <p>Lillard wouldn't need to fight over the top of screens if Holiday were a poor shooter. But Holiday can make enough of them (36 percent from three his career) to keep defenders honest, unlocking the rest of his game. If Zack Collins were safe here, Holiday would be a much less dangerous player -- and Portland might even have won the first two games. But this is a dagger in a big moment, and Holiday doesn't hesitate.</p>
+             <p class="right">Swipe right.</p>
+             <br>
+             <br>
+             <br>
+           </div>
+      </div>
+      
+                       <amp-img width="720"
+                 height="1280"
+                 src="https://github.com/2on1/2on1.github.io/blob/master/assets/Jrue-Slide-3.gif?raw=true">
+    </amp-img>   
+      
+      <div class="container">
+          <div class="content"> 
+              <h2>Why play No. 3 matters</h2>
+      <p>Despite the impressive numbers on the offensive end, Holiday is just as valuable on defense. Lillard has averaged 17.5 points through two first-round playoff games, down 9.4 from his regular season average -- despite taking 1.1 more shots per game in this series. You could chalk this up to gameplanning or strong team defense, but according to NBA.com, Lillard has shot 2-for-18 when Holiday guards him (11.1 percent) and 11-for-23 (47.8 percent) when everyone else does.</p>
+              <p>New Orleans Head Coach Alvin Gentry said after a Game 2 win (in which Holiday scored 33 points, helping the Pelicans to a 2-0 start) that he might be biased, but he couldn’t name a better two-way player in the NBA right now. It sounds crazy, but Holiday’s offense stems from the same place as his defense: his size and athleticism.</p>
+              <br>
+              <br>
+              <br>
+          </div>
+      </div>
     </amp-carousel>
-        </div>
+  </div>
 </body>
     
 </html>
